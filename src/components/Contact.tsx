@@ -16,17 +16,17 @@ export default function Contact() {
           <p className="text-sm font-bold uppercase tracking-[0.3em] text-cyan-400 mb-4">Next Steps</p>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-black text-white tracking-tight mb-8">Let's build the future.</h2>
 
-          <div className="w-full max-w-xl rounded-2xl bg-white/[0.02] border border-white/5 p-6 backdrop-blur-md hover:bg-white/[0.04] transition-colors mb-8">
+          <div className="w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl rounded-2xl bg-white/[0.02] border border-white/5 p-6 backdrop-blur-md hover:bg-white/[0.04] transition-colors mb-8">
             <p className="text-slate-400 font-medium mb-2 uppercase tracking-widest text-xs">Email</p>
             <a
               href="mailto:danielmichelmorgan@gmail.com"
-              className="text-lg md:text-2xl font-semibold text-white transition-colors hover:text-cyan-400"
+              className="text-base sm:text-lg md:text-xl lg:text-2xl font-semibold text-white transition-colors hover:text-cyan-400"
             >
               danielmichelmorgan<span className="text-slate-500">@gmail.com</span>
             </a>
           </div>
 
-          <p className="text-base text-slate-400 leading-relaxed mb-6 font-light max-w-xl">
+          <p className="text-base text-slate-400 leading-relaxed mb-6 font-light max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl">
             Always open to discussing new opportunities, demanding technical challenges, and high-impact product roles. Let's create something meaningful.
           </p>
 
