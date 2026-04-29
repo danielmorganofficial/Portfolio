@@ -3,7 +3,7 @@
 A premium, interactive developer portfolio built with modern web technologies, showcasing a blend of scalable software engineering, quantitative logic, and product strategy.
 
 ## 🚀 Live Demo
-*(Insert deployment link here once hosted, e.g., via Vercel or Netlify)*
+(https://danielmorgan.vercel.app/)
 
 ## 🛠️ Tech Stack
 - **Framework**: [React](https://reactjs.org/) + [Vite](https://vitejs.dev/)
