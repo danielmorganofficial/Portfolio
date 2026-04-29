@@ -1,73 +1,53 @@
-# React + TypeScript + Vite
+# Daniel Morgan | Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A premium, interactive developer portfolio built with modern web technologies, showcasing a blend of scalable software engineering, quantitative logic, and product strategy.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+https://danielmorgan.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tech Stack
+- **Framework**: [React](https://reactjs.org/) + [Vite](https://vitejs.dev/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Background Physics**: [tsParticles](https://particles.js.org/)
 
-## React Compiler
+## ✨ Key Features
+- **Immersive Glassmorphism UI**: Beautifully frosted "Bento Box" layouts leveraging modern Tailwind backdrop-blur capabilities.
+- **Scroll-Triggered Staggering**: Smooth, performant component entrance animations powered by Framer Motion.
+- **Dynamic Physics Engine**: Interactive, mouse-repulsive web/particle background driven by `@tsparticles/react`.
+- **Typing Syntax Effect**: Custom looping typewriter effect highlighting multidisciplinary capabilities.
+- **100% Responsive Form-Factor**: Sleek degradation from 4K ultrawide displays down to minimal mobile viewport sizes.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🔧 Local Setup
 
-## Expanding the ESLint configuration
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/danielmorganofficial/personal-website.git
+   cd personal-website/portfolio
+   ```
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+3. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+   The site will be available locally at `http://localhost:5173`.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+4. **Build for production**
+   ```bash
+   npm run build
+   ```
+   This generates the optimized static bundle in the `dist` directory.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🤝 Let's Connect
+Always open to discussing new opportunities, demanding technical challenges, and high-impact product roles. Let's create something meaningful.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- **Email**: danielmichelmorgan@gmail.com
+- **LinkedIn**: [danielmmorgan](https://www.linkedin.com/in/danielmmorgan/)
+- **GitHub**: [danielmorganofficial](https://github.com/danielmorganofficial)
+- **Devpost**: [danielmichelmorgan](https://devpost.com/danielmichelmorgan)
