@@ -1,0 +1,28 @@
+﻿@import "tailwindcss";
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-slate-950 text-slate-100 antialiased;
+    background-image: radial-gradient(circle at top, rgba(56,189,248,0.12), transparent 28%),
+      radial-gradient(circle at 20% 70%, rgba(168,85,247,0.12), transparent 22%);
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  button,
+  input,
+  textarea,
+  select {
+    font: inherit;
+  }
+}
