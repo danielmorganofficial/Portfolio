@@ -14,7 +14,7 @@ export default function Contact() {
 
         <div className="relative z-10 max-w-4xl mx-auto flex flex-col items-center">
           <p className="text-sm font-bold uppercase tracking-[0.3em] text-cyan-400 mb-4">Next Steps</p>
-          <h2 className="text-4xl md:text-5xl font-black text-white tracking-tight mb-8">Let's build the future.</h2>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-black text-white tracking-tight mb-8">Let's build the future.</h2>
 
           <div className="w-full max-w-xl rounded-2xl bg-white/[0.02] border border-white/5 p-6 backdrop-blur-md hover:bg-white/[0.04] transition-colors mb-8">
             <p className="text-slate-400 font-medium mb-2 uppercase tracking-widest text-xs">Email</p>

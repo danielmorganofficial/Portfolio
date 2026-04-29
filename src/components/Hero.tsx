@@ -25,7 +25,7 @@ export default function Hero({ onNavigate }: HeroProps) {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
       >
-        <h1 className="text-5xl font-semibold tracking-tight text-white sm:text-6xl min-h-[140px] sm:min-h-[80px] flex items-center">
+        <h1 className="text-4xl font-semibold tracking-tight text-white sm:text-5xl md:text-6xl min-h-[120px] sm:min-h-[140px] md:min-h-[80px] flex items-center">
           <span>
             Hello World! I'm{' '}
             <TypeAnimation
@@ -49,7 +49,7 @@ export default function Hero({ onNavigate }: HeroProps) {
 
 
         <motion.div
-          className="mt-10 flex flex-wrap gap-4"
+          className="mt-10 flex flex-col sm:flex-row flex-wrap gap-4"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
@@ -74,7 +74,7 @@ export default function Hero({ onNavigate }: HeroProps) {
             onClick={() => onNavigate('contact')}
             className="inline-flex items-center justify-center rounded-full border border-slate-700 px-6 py-3 text-sm font-semibold text-slate-200 transition hover:border-slate-500 hover:text-white"
           >
-            Let’s connect
+            Let's connect
           </button>
         </motion.div>
       </motion.div>

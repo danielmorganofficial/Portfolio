@@ -38,7 +38,7 @@ export default function Experience() {
         className="flex flex-col gap-3"
       >
         <p className="text-xs uppercase tracking-[0.3em] text-cyan-400">Experience</p>
-        <h2 className="text-2xl font-semibold text-white">Professional highlights</h2>
+        <h2 className="text-xl md:text-2xl font-semibold text-white">Professional highlights</h2>
         <p className="max-w-2xl text-sm text-slate-400 leading-relaxed">
           A few meaningful contributions and roles where I combined strategic product thinking, rigorous quantitative analysis, and scalable software engineering to deliver high-impact results.
         </p>

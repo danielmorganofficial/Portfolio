@@ -27,7 +27,7 @@ export default function About() {
               <span className="h-2 w-2 rounded-full bg-cyan-400 shadow-[0_0_10px_rgba(34,211,238,0.8)] animate-pulse" />
               ABOUT ME
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold text-white tracking-tight leading-tight mb-8">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white tracking-tight leading-tight mb-8">
               Building systems, solving problems.
             </h2>
             <div className="space-y-6 text-lg text-slate-300 leading-relaxed font-light">

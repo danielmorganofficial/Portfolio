@@ -38,7 +38,7 @@ export default function Projects() {
         className="flex flex-col gap-4"
       >
         <p className="text-sm uppercase tracking-[0.35em] text-cyan-400">Projects</p>
-        <h2 className="text-3xl font-semibold text-white">Selected work</h2>
+        <h2 className="text-2xl md:text-3xl font-semibold text-white">Selected work</h2>
         <p className="max-w-2xl text-slate-400">
           Work that highlights product clarity, algorithmic complexity, and robust full-stack execution.
         </p>

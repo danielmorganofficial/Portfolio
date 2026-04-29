@@ -41,24 +41,24 @@ export default function App() {
       <div className="relative z-10 block">
         <Navbar onNavigate={handleNavigate} />
 
-        <main className="mx-auto max-w-6xl px-6 pb-24 pt-24">
+        <main className="mx-auto max-w-6xl px-4 sm:px-6 pb-16 pt-16 md:pb-24 md:pt-24">
           <section ref={homeRef} className="scroll-mt-24">
             <Hero onNavigate={handleNavigate} />
           </section>
 
-          <section ref={aboutRef} className="mt-20 scroll-mt-24">
+          <section ref={aboutRef} className="mt-12 md:mt-20 scroll-mt-24">
             <About />
           </section>
 
-          <section ref={experienceRef} className="mt-20 scroll-mt-24">
+          <section ref={experienceRef} className="mt-12 md:mt-20 scroll-mt-24">
             <Experience />
           </section>
 
-          <section ref={projectsRef} className="mt-20 scroll-mt-24">
+          <section ref={projectsRef} className="mt-12 md:mt-20 scroll-mt-24">
             <Projects />
           </section>
 
-          <section ref={contactRef} className="mt-20 scroll-mt-24">
+          <section ref={contactRef} className="mt-12 md:mt-20 scroll-mt-24">
             <Contact />
           </section>
         </main>
