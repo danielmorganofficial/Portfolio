@@ -50,7 +50,7 @@ export default function About() {
             >
               <h3 className="text-purple-400 font-semibold mb-2">Education</h3>
               <p className="text-white font-medium text-lg mb-1">UBC Sauder School of Business</p>
-              <p className="text-slate-400 font-light">Combined Major: Business & Computer Science</p>
+              <p className="text-slate-400 font-light">Business & Computer Science</p>
             </motion.div>
 
             <motion.div
@@ -62,8 +62,8 @@ export default function About() {
             >
               <h3 className="text-cyan-400 font-semibold mb-3">Key Awards</h3>
               <ul className="text-slate-300 font-light space-y-2 text-sm">
-                <li className="flex gap-2"><span className="text-cyan-500">▹</span> UX Open Best Design '25</li>
-                <li className="flex gap-2"><span className="text-cyan-500">▹</span> VEX Tournament Champs '24</li>
+                <li className="flex gap-2"><span className="text-cyan-500">▹</span> UBC BizTech UX Open Best Design '25</li>
+                <li className="flex gap-2"><span className="text-cyan-500">▹</span> VEX Provincial Tournament Champions '24</li>
                 <li className="flex gap-2"><span className="text-cyan-500">▹</span> CEMC Math Distinction</li>
               </ul>
             </motion.div>
