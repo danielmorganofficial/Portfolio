@@ -16,7 +16,7 @@ const projects = [
   {
     name: 'Mockr: AI Interview Simulation',
     description: 'Scoped and built an AI-powered mock interview platform in a 24-hour sprint, prioritizing core user flows and integrating AI for end-to-end functionality.',
-    tech: 'TypeScript · Python · OpenCV · LLMs',
+    tech: 'TypeScript · Python · OpenCV · LLM APIs',
     link: 'https://github.com/danielmorganofficial/Mockr',
   },
   {
