@@ -55,7 +55,7 @@ export default function Hero({ onNavigate }: HeroProps) {
           transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
         >
           <a
-            href="/resume.pdf"
+            href="https://drive.google.com/file/d/1LM_LQ_kXQn1jCbwVOhL-RJGU0pbgIKTE/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center justify-center rounded-full bg-gradient-to-r from-purple-500 to-pink-500 px-6 py-3 text-sm font-semibold text-white transition hover:opacity-90 shadow-lg shadow-purple-500/30"
