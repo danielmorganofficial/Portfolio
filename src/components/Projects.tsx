@@ -3,7 +3,7 @@
 const projects = [
   {
     name: 'AI Tree Canopy Identification System',
-    description: 'Modelled and optimized neural networks for automated identification of urban tree canopies from aerial imagery and LiDAR using TensorFlow, PyTorch, and LibTorch. Implemented model training, evaluation, and optimization workflows for large-scale geospatial image datasets. Integrated C++ inference workflows for deployment-focused testing and model optimization.',
+    description: 'Modelled and optimized neural networks for automated identification of urban tree canopies from aerial imagery and LiDAR as part of a project developed for the City of Edmonton using TensorFlow, PyTorch, and LibTorch. Implemented model training, evaluation, and optimization workflows for large-scale geospatial image datasets. Integrated C++ inference workflows for deployment-focused testing and model optimization.',
     tech: 'TensorFlow · PyTorch · LibTorch · C++ · Python',
     link: null,
   },
