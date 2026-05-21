@@ -1,5 +1,3 @@
-import { motion } from 'framer-motion'
-
 const experienceItems = [
   {
     role: 'Event Manager',
@@ -42,7 +40,7 @@ export default function Experience() {
       </div>
 
       <div className="mt-6 grid gap-4 md:grid-cols-2">
-        {experienceItems.map((item, idx) => (
+        {experienceItems.map((item) => (
           <article
             key={item.role}
             className="group relative overflow-hidden rounded-xl bg-white/[0.03] p-6 border border-white/5 backdrop-blur-md transition-all duration-300 hover:border-cyan-500/30 hover:bg-white/[0.04]"

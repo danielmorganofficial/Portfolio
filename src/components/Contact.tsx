@@ -1,6 +1,4 @@
-﻿import { motion } from 'framer-motion'
-
-export default function Contact() {
+﻿export default function Contact() {
   return (
     <section className="mb-20">
       <div

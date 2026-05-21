@@ -1,6 +1,4 @@
-﻿import { motion } from 'framer-motion'
-
-const projects = [
+﻿const projects = [
   {
     name: 'AI Tree Canopy Identification System',
     description: 'Modelled and optimized neural networks for automated identification of urban tree canopies from aerial imagery and LiDAR as part of a project developed for the City of Edmonton using TensorFlow, PyTorch, and LibTorch. Implemented model training, evaluation, and optimization workflows for large-scale geospatial image datasets. Integrated C++ inference workflows for deployment-focused testing and model optimization.',
@@ -47,7 +45,7 @@ export default function Projects() {
       </div>
 
       <div className="mt-10 grid gap-6 lg:grid-cols-2">
-        {projects.map((project, idx) => {
+        {projects.map((project) => {
           const isLink = !!project.link;
 
           if (isLink) {
