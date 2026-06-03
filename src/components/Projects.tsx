@@ -34,17 +34,12 @@
 export default function Projects() {
   return (
     <section className="mt-16">
-      <div
-        className="flex flex-col gap-4"
-      >
+      <div className="flex flex-col gap-3">
         <p className="section-title">Projects</p>
         <h2 className="section-heading">Selected work</h2>
-        <p className="max-w-2xl text-slate-400">
-          Work that highlights product clarity, algorithmic complexity, and robust full-stack execution.
-        </p>
       </div>
 
-      <div className="mt-6 grid gap-5 sm:grid-cols-2">
+      <div className="mt-5 grid gap-5 sm:grid-cols-2">
         {projects.map((project) => {
           const isLink = !!project.link;
 

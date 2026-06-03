@@ -22,15 +22,12 @@ const experienceItems = [
 export default function Experience() {
   return (
     <section className="rounded-3xl border border-white/10 bg-white/[0.02] p-7 md:p-9">
-      <div className="flex flex-col gap-3">
+      <div className="flex flex-col gap-4">
         <p className="section-title">Experience</p>
         <h2 className="section-heading">Professional highlights</h2>
-        <p className="text-base text-slate-400 leading-7">
-          Product work that combines quantitative analysis with scalable systems design.
-        </p>
       </div>
 
-      <div className="mt-5 space-y-4">
+      <div className="mt-4 space-y-4">
         {experienceItems.map((item) => (
           <article
             key={item.role}
